@@ -47,6 +47,14 @@ body {
 
 /* Portrait layout (default) */
 
+.app-header {
+    position: absolute;
+    top: 0;
+    border: 10px solid blue;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .app {
     background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
     position:absolute;
