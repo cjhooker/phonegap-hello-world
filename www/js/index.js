@@ -47,6 +47,7 @@ var app = {
         console.log('Received Event: ' + id);
 
         Keyboard.shrinkView(true);
+        Keyboard.hideFormAccessoryBar(true);
         
         //cordova.plugins.Keyboard.disableScroll(true); // false to enable again
 
