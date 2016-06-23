@@ -46,7 +46,9 @@ var app = {
 
         console.log('Received Event: ' + id);
 
-        cordova.plugins.Keyboard.disableScroll(true); // false to enable again
+        Keyboard.shrinkView(true);
+        
+        //cordova.plugins.Keyboard.disableScroll(true); // false to enable again
 
         // window.addEventListener("native.keyboardshow", function (e) {
         //   alert("Keyboard opened, height is " + e.keyboardHeight + "px");

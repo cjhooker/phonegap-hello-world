@@ -24,5 +24,6 @@
     <allow-intent href="geo:*" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    <plugin name="com.ionic.keyboard" spec="https://github.com/Telerik-Verified-Plugins/Keyboard" />
+    <!-- <plugin name="com.ionic.keyboard" spec="https://github.com/Telerik-Verified-Plugins/Keyboard" /> -->
+    <plugin name="cordova-plugin-keyboard" spec="~1.1.4" />
 </widget>
