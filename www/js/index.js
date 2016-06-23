@@ -48,7 +48,7 @@ var app = {
 
         Keyboard.shrinkView(true);
         Keyboard.hideFormAccessoryBar(true);
-        Keyboard.disableScrollingInShrinkView(true);
+        // Keyboard.disableScrollingInShrinkView(true);
         //cordova.plugins.Keyboard.disableScroll(true); // false to enable again
 
         // window.addEventListener("native.keyboardshow", function (e) {
