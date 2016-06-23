@@ -48,12 +48,12 @@ var app = {
 
         cordova.plugins.Keyboard.disableScroll(true); // false to enable again
 
-        window.addEventListener("native.keyboardshow", function (e) {
-          alert("Keyboard opened, height is " + e.keyboardHeight + "px");
-        });
-
-        window.addEventListener("native.keyboardhide", function (e) {
-          alert("Keyboard closed");
-        });
+        // window.addEventListener("native.keyboardshow", function (e) {
+        //   alert("Keyboard opened, height is " + e.keyboardHeight + "px");
+        // });
+        //
+        // window.addEventListener("native.keyboardhide", function (e) {
+        //   alert("Keyboard closed");
+        // });
     }
 };
